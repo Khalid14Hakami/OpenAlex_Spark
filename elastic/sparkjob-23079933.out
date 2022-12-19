@@ -1,0 +1,105 @@
+[2022-12-08T01:11:46,629][INFO ][o.e.n.Node               ] [cn603-15-l] version[8.5.2], pid[263365], build[tar/a846182fa16b4ebfcc89aa3c11a11fd5adf3de04/2022-11-17T18:56:17.538630285Z], OS[Linux/3.10.0-1160.76.1.el7.x86_64/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/19.0.1/19.0.1+10-21]
+[2022-12-08T01:11:47,326][INFO ][o.e.n.Node               ] [cn603-15-l] JVM home [/ibex/scratch/projects/c2194/hakamika/testing/elastic/elasticsearch-8.5.2/jdk], using bundled JDK [true]
+[2022-12-08T01:11:47,482][INFO ][o.e.n.Node               ] [cn603-15-l] JVM arguments [-Des.networkaddress.cache.ttl=60, -Des.networkaddress.cache.negative.ttl=10, -Djava.security.manager=allow, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j2.formatMsgNoLookups=true, -Djava.locale.providers=SPI,COMPAT, --add-opens=java.base/java.io=ALL-UNNAMED, -XX:+UseG1GC, -Djava.io.tmpdir=/tmp/elasticsearch-4986291911302142674, -XX:+HeapDumpOnOutOfMemoryError, -XX:+ExitOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -Xlog:gc*,gc+age=trace,safepoint:file=logs/gc.log:utctime,pid,tags:filecount=32,filesize=64m, -Xms4096m, -Xmx4096m, -XX:MaxDirectMemorySize=2147483648, -XX:G1HeapRegionSize=4m, -XX:InitiatingHeapOccupancyPercent=30, -XX:G1ReservePercent=15, -Des.distribution.type=tar, --module-path=/ibex/scratch/projects/c2194/hakamika/testing/elastic/elasticsearch-8.5.2/lib, --add-modules=jdk.net, -Djdk.module.main=org.elasticsearch.server]
+[2022-12-08T01:12:38,235][INFO ][c.a.c.i.j.JacksonVersion ] [cn603-15-l] Package versions: jackson-annotations=2.13.2, jackson-core=2.13.2, jackson-databind=2.13.2.2, jackson-dataformat-xml=2.13.2, jackson-datatype-jsr310=2.13.2, azure-core=1.27.0, Troubleshooting version conflicts: https://aka.ms/azsdk/java/dependency/troubleshoot
+[2022-12-08T01:13:03,510][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [aggs-matrix-stats]
+[2022-12-08T01:13:04,365][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [analysis-common]
+[2022-12-08T01:13:04,367][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [apm]
+[2022-12-08T01:13:04,370][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [constant-keyword]
+[2022-12-08T01:13:04,375][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [data-streams]
+[2022-12-08T01:13:04,376][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [frozen-indices]
+[2022-12-08T01:13:04,377][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [ingest-attachment]
+[2022-12-08T01:13:04,379][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [ingest-common]
+[2022-12-08T01:13:04,380][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [ingest-geoip]
+[2022-12-08T01:13:04,383][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [ingest-user-agent]
+[2022-12-08T01:13:04,385][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [kibana]
+[2022-12-08T01:13:04,386][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [lang-expression]
+[2022-12-08T01:13:04,388][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [lang-mustache]
+[2022-12-08T01:13:04,389][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [lang-painless]
+[2022-12-08T01:13:04,391][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [legacy-geo]
+[2022-12-08T01:13:04,392][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [mapper-extras]
+[2022-12-08T01:13:04,393][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [mapper-version]
+[2022-12-08T01:13:04,394][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [old-lucene-versions]
+[2022-12-08T01:13:04,396][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [parent-join]
+[2022-12-08T01:13:04,397][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [percolator]
+[2022-12-08T01:13:04,398][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [rank-eval]
+[2022-12-08T01:13:04,399][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [reindex]
+[2022-12-08T01:13:04,400][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [repositories-metering-api]
+[2022-12-08T01:13:04,401][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [repository-azure]
+[2022-12-08T01:13:04,402][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [repository-encrypted]
+[2022-12-08T01:13:04,403][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [repository-gcs]
+[2022-12-08T01:13:04,404][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [repository-s3]
+[2022-12-08T01:13:04,405][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [repository-url]
+[2022-12-08T01:13:04,407][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [runtime-fields-common]
+[2022-12-08T01:13:04,408][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [search-business-rules]
+[2022-12-08T01:13:04,409][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [searchable-snapshots]
+[2022-12-08T01:13:04,411][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [snapshot-based-recoveries]
+[2022-12-08T01:13:04,412][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [snapshot-repo-test-kit]
+[2022-12-08T01:13:04,480][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [spatial]
+[2022-12-08T01:13:04,570][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [transform]
+[2022-12-08T01:13:04,573][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [transport-netty4]
+[2022-12-08T01:13:04,576][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [unsigned-long]
+[2022-12-08T01:13:04,578][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [vector-tile]
+[2022-12-08T01:13:04,579][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [wildcard]
+[2022-12-08T01:13:04,583][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-aggregate-metric]
+[2022-12-08T01:13:04,584][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-analytics]
+[2022-12-08T01:13:04,586][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-async]
+[2022-12-08T01:13:04,587][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-async-search]
+[2022-12-08T01:13:04,588][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-autoscaling]
+[2022-12-08T01:13:04,589][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-ccr]
+[2022-12-08T01:13:04,590][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-core]
+[2022-12-08T01:13:04,592][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-deprecation]
+[2022-12-08T01:13:04,594][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-enrich]
+[2022-12-08T01:13:04,595][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-eql]
+[2022-12-08T01:13:04,601][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-fleet]
+[2022-12-08T01:13:04,602][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-graph]
+[2022-12-08T01:13:04,602][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-identity-provider]
+[2022-12-08T01:13:04,603][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-ilm]
+[2022-12-08T01:13:04,604][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-logstash]
+[2022-12-08T01:13:04,605][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-ml]
+[2022-12-08T01:13:04,606][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-monitoring]
+[2022-12-08T01:13:04,607][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-ql]
+[2022-12-08T01:13:04,608][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-rollup]
+[2022-12-08T01:13:04,609][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-security]
+[2022-12-08T01:13:04,613][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-shutdown]
+[2022-12-08T01:13:04,617][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-sql]
+[2022-12-08T01:13:04,618][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-stack]
+[2022-12-08T01:13:04,619][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-text-structure]
+[2022-12-08T01:13:04,620][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-voting-only-node]
+[2022-12-08T01:13:04,620][INFO ][o.e.p.PluginsService     ] [cn603-15-l] loaded module [x-pack-watcher]
+[2022-12-08T01:13:04,621][INFO ][o.e.p.PluginsService     ] [cn603-15-l] no plugins loaded
+[2022-12-08T01:13:12,625][WARN ][stderr                   ] [cn603-15-l] Dec 08, 2022 1:13:12 AM org.apache.lucene.store.MMapDirectory lookupProvider
+[2022-12-08T01:13:12,627][WARN ][stderr                   ] [cn603-15-l] WARNING: You are running with Java 19. To make full use of MMapDirectory, please pass '--enable-preview' to the Java command line.
+[2022-12-08T01:13:12,879][INFO ][o.e.e.NodeEnvironment    ] [cn603-15-l] using [1] data paths, mounts [[/ibex/scratch (beegfs_nodev)]], net usable_space [2.6pb], net total_space [5.8pb], types [beegfs]
+[2022-12-08T01:13:12,881][INFO ][o.e.e.NodeEnvironment    ] [cn603-15-l] heap size [4gb], compressed ordinary object pointers [true]
+[2022-12-08T01:13:12,915][INFO ][o.e.n.Node               ] [cn603-15-l] node name [cn603-15-l], node ID [eLgAwEUqRZK-5M4mrWjrtw], cluster name [elasticsearch], roles [ingest, data_cold, data, remote_cluster_client, master, data_warm, data_content, transform, data_hot, ml, data_frozen]
+[2022-12-08T01:13:23,420][INFO ][o.e.x.s.Security         ] [cn603-15-l] Security is enabled
+[2022-12-08T01:13:23,800][INFO ][o.e.x.s.a.s.FileRolesStore] [cn603-15-l] parsed [0] roles from file [/ibex/scratch/projects/c2194/hakamika/testing/elastic/elasticsearch-8.5.2/config/roles.yml]
+[2022-12-08T01:13:24,494][INFO ][o.e.x.s.InitialNodeSecurityAutoConfiguration] [cn603-15-l] Auto-configuration will not generate a password for the elastic built-in superuser, as we cannot  determine if there is a terminal attached to the elasticsearch process. You can use the `bin/elasticsearch-reset-password` tool to set the password for the elastic user.
+[2022-12-08T01:13:24,654][INFO ][o.e.x.m.p.l.CppLogMessageHandler] [cn603-15-l] [controller/264768] [Main.cc@123] controller (64 bit): Version 8.5.2 (Build 6ef151e14abe3e) Copyright (c) 2022 Elasticsearch BV
+[2022-12-08T01:13:25,625][INFO ][o.e.t.n.NettyAllocator   ] [cn603-15-l] creating NettyAllocator with the following configs: [name=elasticsearch_configured, chunk_size=1mb, suggested_max_allocation_size=1mb, factors={es.unsafe.use_netty_default_chunk_and_page_size=false, g1gc_enabled=true, g1gc_region_size=4mb}]
+[2022-12-08T01:13:26,772][INFO ][o.e.i.r.RecoverySettings ] [cn603-15-l] using rate limit [40mb] with [default=40mb, read=0b, write=0b, max=0b]
+[2022-12-08T01:13:28,433][INFO ][o.e.d.DiscoveryModule    ] [cn603-15-l] using discovery type [multi-node] and seed hosts providers [settings]
+[2022-12-08T01:13:31,114][INFO ][o.e.n.Node               ] [cn603-15-l] initialized
+[2022-12-08T01:13:31,258][INFO ][o.e.n.Node               ] [cn603-15-l] starting ...
+[2022-12-08T01:13:31,688][INFO ][o.e.x.s.c.f.PersistentCache] [cn603-15-l] persistent cache index loaded
+[2022-12-08T01:13:31,692][INFO ][o.e.x.d.l.DeprecationIndexingComponent] [cn603-15-l] deprecation component started
+[2022-12-08T01:13:31,878][INFO ][o.e.t.TransportService   ] [cn603-15-l] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2022-12-08T01:13:33,207][WARN ][o.e.b.BootstrapChecks    ] [cn603-15-l] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65535]
+[2022-12-08T01:13:33,208][WARN ][o.e.b.BootstrapChecks    ] [cn603-15-l] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2022-12-08T01:13:33,211][INFO ][o.e.c.c.ClusterBootstrapService] [cn603-15-l] this node has not joined a bootstrapped cluster yet; [cluster.initial_master_nodes] is set to [cn603-15-l]
+[2022-12-08T01:13:33,232][INFO ][o.e.c.c.Coordinator      ] [cn603-15-l] setting initial configuration to VotingConfiguration{eLgAwEUqRZK-5M4mrWjrtw}
+[2022-12-08T01:13:35,454][INFO ][o.e.c.s.MasterService    ] [cn603-15-l] elected-as-master ([1] nodes joined)[_FINISH_ELECTION_, {cn603-15-l}{eLgAwEUqRZK-5M4mrWjrtw}{nSwdxuvrRXWYY_gzVYSHSw}{cn603-15-l}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw} completing election], term: 1, version: 1, delta: master node changed {previous [], current [{cn603-15-l}{eLgAwEUqRZK-5M4mrWjrtw}{nSwdxuvrRXWYY_gzVYSHSw}{cn603-15-l}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}
+[2022-12-08T01:13:36,476][INFO ][o.e.c.c.CoordinationState] [cn603-15-l] cluster UUID set to [G5w48pBCQNCHW27Kbpj7Mw]
+[2022-12-08T01:13:39,348][INFO ][o.e.c.s.ClusterApplierService] [cn603-15-l] master node changed {previous [], current [{cn603-15-l}{eLgAwEUqRZK-5M4mrWjrtw}{nSwdxuvrRXWYY_gzVYSHSw}{cn603-15-l}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2022-12-08T01:13:39,423][INFO ][o.e.r.s.FileSettingsService] [cn603-15-l] starting file settings watcher ...
+[2022-12-08T01:13:39,451][INFO ][o.e.h.AbstractHttpServerTransport] [cn603-15-l] publish_address {10.109.73.85:9200}, bound_addresses {[::]:9200}
+[2022-12-08T01:13:39,450][INFO ][o.e.r.s.FileSettingsService] [cn603-15-l] file settings service up and running [tid=59]
+[2022-12-08T01:13:39,456][INFO ][o.e.n.Node               ] [cn603-15-l] started {cn603-15-l}{eLgAwEUqRZK-5M4mrWjrtw}{nSwdxuvrRXWYY_gzVYSHSw}{cn603-15-l}{127.0.0.1}{127.0.0.1:9300}{cdfhilmrstw}{ml.allocated_processors=1, ml.machine_memory=8589934592, xpack.installed=true, ml.allocated_processors_double=1.0, ml.max_jvm_size=4294967296}
+eyJ2ZXIiOiI4LjUuMiIsImFkciI6WyIxMC4xMDkuNzMuODU6OTIwMCJdLCJmZ3IiOiJmMTc4MWFjMDU5ZDZjMDU0NmRjYWVkMmMzZTgzNDE5ZmQ0NzgxODlmZjNkZjYxZDczNTkyZTA4OTVkZTdjYWE0Iiwia2V5IjoiUURxbjdvUUJ0RzZuYVFRRk5XWHI6MXNzeXkwUEFRUlcxSmd4T2E4UUMwUSJ9
+
+ERROR: Skipping security auto configuration because it appears that the node is not starting up for the first time. The node might already be part of a cluster and this auto setup utility is designed to configure Security for new clusters only.
+
+srun: error: cn603-16-l: task 1: Exited with exit code 80
+ERROR: Skipping security auto configuration because it appears that the node is not starting up for the first time. The node might already be part of a cluster and this auto setup utility is designed to configure Security for new clusters only.
+srun: error: cn603-15-l: task 0: Exited with exit code 80
